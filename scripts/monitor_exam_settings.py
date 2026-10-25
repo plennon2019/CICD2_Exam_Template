@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Transparent config watcher for a supervised coding exam.
 
-Records changes to .vscode/settings.json, but does NOT record keystrokes,
-screen activity, web requests, or whether AI tools were used. Students
-control this Codespace; these local records are not tamper-proof.
-"""
 import fcntl
 import hashlib
 import json
